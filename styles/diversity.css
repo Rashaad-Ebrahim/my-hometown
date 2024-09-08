@@ -1,0 +1,32 @@
+.diversity {
+    background-color: #778da9;
+    padding: 20px 0px;
+}
+
+.diversity-container {
+    height: 100%;
+    display: flex;
+    padding: 0 150px;
+
+}
+
+.diversity-img {
+    background-image: url("/Images/diversity.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50%;
+    flex-shrink: 1;
+    
+}
+
+.diversity-text {
+    margin: 0px;
+    padding: 0 20px;
+    text-align: center;
+    min-width: 200px;
+    width: 50%;
+}
+
+.diversity-heaading {
+    font-size: 32px;
+}

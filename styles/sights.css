@@ -1,0 +1,86 @@
+.sights {
+    background-color: #415a77;
+    padding: 20px 0px;
+}
+
+.sights-heading {
+    padding: 0px  0px 20px 0px;
+    text-align: center;
+    font-size: 32px;
+    margin: 0;
+}
+
+.sights-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+}
+
+.sights-container-item {
+    text-align: center;
+    width: 30%;
+    background-color: #faedcd;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.sights-img {
+    padding: 50px 50px;
+}
+
+.sights-img-container{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.sights-btn {
+    font-size: 14px;
+    font-family: inherit;
+    padding: 5px 10px;
+    border: 2px solid darkgray;
+    border-radius: 5px;
+}
+
+.sights-btn:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.sights-img-item {
+    width: 300px;
+    height: 200px;
+    flex-grow: 1;
+    background-size:contain;
+    background-repeat:no-repeat;
+    transition: transform .3s;
+}
+
+.sights-img-item:hover {
+    transform: scale(1.25);
+}
+
+#img1 {
+    background-image: url("/Images/Jozi1.jpg");
+
+}
+
+#img1:hover {
+    transform: scale(1.25);
+}
+
+#img2 {
+    background-image: url("/Images/Jozi2.jpg");
+}
+
+#img3 {
+    background-image: url("/Images/Jozi3.jpg");
+}
+
+#img4 {
+    background-image: url("/Images/Jozi4.jpg");
+}
+
+#img5 {
+    background-image: url("/Images/Jozi5.jpg");
+}
