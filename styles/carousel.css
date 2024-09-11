@@ -1,0 +1,26 @@
+img {
+    width: 584px;
+    height: 430px;
+}
+.carousel {
+    padding: 50px;
+    background-color: #22577a;
+}
+
+.carousel-heading {
+    padding: 0px  0px 20px 0px;
+    text-align: center;
+    font-size: 32px;
+    margin: 0;
+}
+
+.carousel-img-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.carousel-btn-container {
+    display: flex;
+    justify-content: center;
+}

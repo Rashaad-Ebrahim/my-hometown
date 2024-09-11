@@ -2,6 +2,7 @@
 @import url("/styles/navbar.css");
 @import url("/styles/diversity.css");
 @import url("/styles/sights.css");
+@import url("/styles/carousel.css");
 
 * {
     box-sizing: border-box;
