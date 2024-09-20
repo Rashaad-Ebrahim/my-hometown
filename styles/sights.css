@@ -1,6 +1,7 @@
 .sights {
     background-color: #415a77;
-    padding: 20px 0px;
+    /* padding: 20px 0px; */
+    margin-top: 50px;
 }
 
 .sights-heading {
@@ -14,9 +15,11 @@
     display: flex;
     justify-content: space-between;
     padding: 0px 150px;
+
+    
 }
 
-.sights-container-item {
+.sights-card {
     text-align: center;
     width: 30%;
     background-color: #faedcd;
