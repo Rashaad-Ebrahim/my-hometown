@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   column-gap: 40px;
-  padding: 0 30px;
+  padding-bottom: 30px;
   align-items: center;
   margin-top: 50px;
 }
@@ -15,7 +15,7 @@
 
 .diversity-text {
   padding: 20px 30px;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 20px;
   background-color: #bac8ff;
   grid-column: 3/ -1;

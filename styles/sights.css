@@ -1,89 +1,69 @@
 .sights {
-    background-color: #415a77;
-    /* padding: 20px 0px; */
-    margin-top: 50px;
-}
-
-.sights-heading {
-    padding: 0px  0px 20px 0px;
-    text-align: center;
-    font-size: 32px;
-    margin: 0;
+    /* margin-bottom: 500px; */
 }
 
 .sights-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 150px;
-
-    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    margin-top: 50px;
+   
 }
 
 .sights-card {
-    text-align: center;
-    width: 30%;
+    /* text-align: center; */
+
     background-color: #faedcd;
-    border-radius: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+.sights-card h3 {
     padding: 20px;
 }
 
-.sights-img {
-    padding: 50px 50px;
+.sights-card-text {
+    padding: 0 20px;
 }
 
-.sights-img-container{
-    display: flex;
-    justify-content: end;
+.sights-card-text p {
+    margin-bottom: 24px;
+    line-height: 1.6;
+    
+}
+
+.sights-card-img {
     width: 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+       
+}
+
+.sights-link {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 20px;
+ 
 }
 
 .sights-btn {
-    font-size: 14px;
+    /* width: 200px;
+    height: 50px; */
+    align-self: center;
+    font-size: 16px;
     font-family: inherit;
-    padding: 5px 10px;
+    padding: 20px 40px;
     border: 2px solid darkgray;
-    border-radius: 5px;
+    border-radius: 15px;
+    
 }
 
 .sights-btn:hover {
     background-color: lightgrey;
     cursor: pointer;
-}
-
-.sights-img-item {
-    width: 300px;
-    height: 200px;
-    flex-grow: 1;
-    background-size:contain;
-    background-repeat:no-repeat;
-    transition: transform .3s;
-}
-
-.sights-img-item:hover {
-    transform: scale(1.25);
-}
-
-#img1 {
-    background-image: url("/Images/Jozi1.jpg");
-
-}
-
-#img1:hover {
-    transform: scale(1.25);
-}
-
-#img2 {
-    background-image: url("/Images/Jozi2.jpg");
-}
-
-#img3 {
-    background-image: url("/Images/Jozi3.jpg");
-}
-
-#img4 {
-    background-image: url("/Images/Jozi4.jpg");
-}
-
-#img5 {
-    background-image: url("/Images/Jozi5.jpg");
 }
